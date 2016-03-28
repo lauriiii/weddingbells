@@ -1,0 +1,43 @@
+$border-color: #e4ecf9;
+
+@mixin mobile {
+	@media (max-width: 767px) {
+		@content;
+	}
+}
+
+body {
+	background: #f2f7fe;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.container {
+	background: #fff;
+	box-shadow: 0 0 1em #e3eaf4;
+}
+a {
+	color: #021488;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, serif;
+	font-weight: 400;
+}
+p {
+	color: #333;
+	line-height: 1.55em;
+}
+time {
+	color: #666;
+	display: block;
+	font-style: italic;
+	margin-bottom: 15px;
+}
+
+@import "header";
+
+@import "menu";
+
+@import "posts-pages";
+
+@import "sidebar";
+
+@import "footer";

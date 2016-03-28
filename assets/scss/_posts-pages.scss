@@ -1,0 +1,84 @@
+.content {
+	> div {
+		padding: 0px 40px;
+		@include mobile {
+			padding: 0px 20px;
+		}
+	}
+}
+.post {
+	margin: 40px 0px;
+	@include mobile {
+		margin: 20px 0px;
+	}
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+	ul, ol {
+		li {
+			line-height: 1.5em;
+		}
+	}
+	blockquote {
+		border-color: $border-color;
+		p {
+			font-style: italic;
+			color: #666;
+			font-size: 14px;
+		}
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	.entry:after {
+		content: '';
+		clear: both;
+		display: table;
+	}
+}
+.content-title {
+	margin-top: 0;
+}
+.post-meta {
+	border-top: 1px solid #e4ecf9;
+	border-bottom: 1px solid #e4ecf9;
+	padding: 10px 0px;
+	display: block;
+	margin-top: 20px;
+	p {
+		color: #666;
+		margin: 0;
+	}
+}
+.pagination {
+	clear: both;
+	width: 100%;
+	.next {
+		float: left;
+	}
+	.prev {
+		float: right;
+	}
+}
+.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+	@include mobile {
+		float: none;
+		margin: 5px 0px 15px;
+	}
+}
+.alignright {
+	float: right;
+	margin: 5px 0px 20px 20px;
+	@include mobile {
+		float: none;
+		margin: 5px 0px 15px;
+	}
+}
+.aligncenter {
+	display: block;
+	text-align: center;
+	margin: 5px auto 15px;
+}

@@ -1,0 +1,45 @@
+.header {
+	> div {
+		padding: 0;
+	}
+	img {
+		max-width: 100%;
+		height: auto;
+		display: block;
+	}
+}
+.site-info {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	padding: 30px;
+	background: #fff;
+	background: rgba(255,255,255,0.8);
+	float: left;
+	border-radius: 5px;
+	@include mobile {
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		border-radius: 0;
+		padding: 20px;
+		position: relative;
+	}
+	h1 {
+		margin: 0;
+		@include mobile {
+			font-size: 28px;
+		}
+	}
+	p {
+		font-size: 18px;
+		font-style: italic;
+		margin-top: 10px;
+		margin-bottom: 0;
+		@include mobile {
+			font-size: 14px;
+			margin-top: 5px;
+		}
+	}
+}

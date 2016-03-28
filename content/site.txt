@@ -1,0 +1,22 @@
+Title: Wedding Bells Theme
+----
+Tagline: Simple blog theme for Kirby CMS
+----
+Author: Lauri Liimatta
+----
+Description: Simple blog theme for Kirby CMS
+----
+Keywords: Kirby, theme, wedding
+----
+Copyright: © (date: Year) (link: http://lauriliimatta.com text: Lauri Liimatta)
+----
+Blogroll:
+-
+	title: Kirby
+	url: http://getkirby.com
+-
+	title: Kirby support
+	url: http://getkirby.com/support
+- 
+	title: Lauri Liimatta
+	url: http://lauriliimatta.com

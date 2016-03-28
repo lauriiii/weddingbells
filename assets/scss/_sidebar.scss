@@ -1,0 +1,29 @@
+.sidebar {
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		li {
+			border-bottom: 1px solid $border-color;
+			a {
+				display: block;
+				padding: 8px 0px;
+			}
+		}
+	}
+}
+.sidebar-widget {
+	margin-top: 40px;
+	@include mobile {
+		margin-top: 20px;
+	}
+	&:last-of-type {
+		margin-bottom: 40px;
+		@include mobile {
+			margin-bottom: 20px;
+		}
+	}
+	h3 {
+		margin-top: 0;
+	}
+}

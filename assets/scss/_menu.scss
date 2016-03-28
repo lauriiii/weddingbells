@@ -1,0 +1,41 @@
+.menu {
+	> div {
+		padding: 0;
+	}
+}
+.navbar-default {
+	background-color: #f4f9ff;
+	background-image: -webkit-linear-gradient(#f4f9ff,#eaf1f9);
+	background-image: linear-gradient(#f4f9ff,#eaf1f9);
+	border-radius: 0;
+	border: 0;
+	border-top: 1px solid #d8e2ef;
+	border-bottom: 1px solid #d8e2ef;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+	margin-bottom: 0;
+}
+.navbar-default .navbar-nav > .active a {
+	background: #d8e2ef;
+	&:hover {
+		background: darken(#d8e2ef, 1%);
+	}
+}
+.navbar-nav {
+	@include mobile {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+.nav > li > a {
+	@include mobile {
+		padding: 10px 20px;
+	}
+}
+.navbar-toggle {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-default .navbar-toggle {
+	border-color: darken(#eaf1f9, 8%);
+	background: #fff;
+}
