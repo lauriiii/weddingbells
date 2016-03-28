@@ -16,3 +16,7 @@ The easiest way to install Weddings Bells and Kirby is to run the following comm
 ## Kirby
 
 Kirby is a file-based CMS. Easy to setup. Easy to use. Flexible as hell. To use Kirby you need to purchase a license: <http://getkirby.com/buy>
+
+## Demo
+
+<http://liimatta.eu/demo/weddingbells/>
